@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-git clone --depth=1 http://git.fedorahosted.org/git/gdb-heap.git || true
+git clone --depth=1 https://git.fedorahosted.org/git/gdb-heap.git || true
 
 cd gdb-heap
 # make sure gdbinit exists
